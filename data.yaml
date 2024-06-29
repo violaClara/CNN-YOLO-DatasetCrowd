@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: ga-capstone-3f9vu
+  project: crowd_count_v2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ga-capstone-3f9vu/crowd_count_v2/dataset/3
